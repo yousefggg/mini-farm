@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19efd4d6-1f76-46b4-a863-97ba9bcfd7b9">
+  <producedTypes>
+    <objectType typeId="cd7d35ee-d758-4a50-91cb-1cdb5e86a213" valueTypeId="746340ad-4d05-40a9-94fb-494dc6bd66f2"/>
+    <refType typeId="819a0704-17a7-40cc-9f6a-fb23180a47a4" valueTypeId="6574a2f2-1609-4d92-86bb-99cc529f447a"/>
+    <selectionType typeId="cf176ccb-f7df-494c-b152-f2113cfc78f2" valueTypeId="9898a503-ca3b-43c8-a120-2db57f68036c"/>
+    <listType typeId="01634742-6ec4-404c-9953-00093a2fb3e5" valueTypeId="77c5e004-732b-4a58-95de-899dc9146550"/>
+    <managerType typeId="85482b44-9726-42f9-b336-025659532645" valueTypeId="0da4ed3f-58b3-4183-82cc-4f9443b714e1"/>
+  </producedTypes>
+  <name>ВыдачаКорма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выдача корма</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВыдачаКорма.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВыдачаКорма.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.РасходКормов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="1de7e827-8e74-4e84-aca7-8431e6e0501d">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="547197de-1c7e-4589-862c-2751f5102169">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="e4ba6810-ad34-46a4-9b67-70a756fb059c">
+    <producedTypes>
+      <objectType typeId="f49ebc39-aa09-40bf-8657-6fce1523d09d" valueTypeId="aca345ba-ca54-4b75-ac97-902000be9573"/>
+      <rowType typeId="4a62505d-5077-4a04-a6c6-cd433863d780" valueTypeId="f0be2438-c1d5-4fe3-ad68-f046cf979e2a"/>
+    </producedTypes>
+    <name>Корма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корма</value>
+    </synonym>
+    <attributes uuid="9807f78b-1a08-4f72-8ac9-9aa5098bb732">
+      <name>Животное</name>
+      <synonym>
+        <key>ru</key>
+        <value>Животное</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Животные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c8aa7e94-d373-4f23-bd6c-14e6cdc4625d">
+      <name>Корм</name>
+      <synonym>
+        <key>ru</key>
+        <value>Корм</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Корма</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8e02967a-47bb-4a41-b709-45c078233078">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

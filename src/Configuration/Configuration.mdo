@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="445c06b6-adcd-422a-82a0-106ed53faa28">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="915c9488-35f8-4026-822b-d6b52f0fc4ed"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="097a0ae7-0210-4de3-9e33-a7023a71ee25"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="74a1e702-cd0f-4de3-a54f-57142c29e507"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="37e6e16e-235b-489e-a580-1d9927411a6c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5b5aedf6-bb83-44f6-a5c9-5df7879759f9"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="08af9ff6-bfc2-4d93-9a66-a60fb359e9bf"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="a9e61236-7fe0-41f2-b914-94d5d50890fd"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="c3dd399e-c1ec-4bf3-b670-4fb22cd0de9c">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.УчетЖивотных</subsystems>
+  <subsystems>Subsystem.Кормление</subsystems>
+  <subsystems>Subsystem.ПродукцияИПродажи</subsystems>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Зоотехник</roles>
+  <roles>Role.Руководитель</roles>
+  <roles>Role.ОператорПроизводства</roles>
+  <catalogs>Catalog.ВидыЖивотных</catalogs>
+  <catalogs>Catalog.Животные</catalogs>
+  <catalogs>Catalog.Корма</catalogs>
+  <catalogs>Catalog.Рационы</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Продукция</catalogs>
+  <catalogs>Catalog.Вакцины</catalogs>
+  <documents>Document.ПоступлениеЖивотных</documents>
+  <documents>Document.Вакцинация</documents>
+  <documents>Document.ВыдачаКорма</documents>
+  <documents>Document.РеализацияПродукции</documents>
+  <documents>Document.ВыбытиеЖивотных</documents>
+  <documents>Document.ПроизводствоПродукции</documents>
+  <enums>Enum.ПолЖивотного</enums>
+  <enums>Enum.ЕдиницыИзмерения</enums>
+  <enums>Enum.ЕдиницыИзмеренияДозировки</enums>
+  <reports>Report.ПоголовьеНаДату</reports>
+  <reports>Report.КВакцинации</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаИзJSON</dataProcessors>
+  <informationRegisters>InformationRegister.НормыКормления</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Поголовье</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасходКормов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВыработкаПродукции</accumulationRegisters>
+  <businessProcesses>BusinessProcess.ПриемкаЖивотных</businessProcesses>
+  <tasks>Task.ЗадачиФермы</tasks>
+</mdclass:Configuration>

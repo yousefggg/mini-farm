@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d9529fd-f7c4-4b66-8268-95d531f1c66a">
+  <producedTypes>
+    <objectType typeId="ade4eef9-5af2-4869-9db4-6ae79c617777" valueTypeId="cf01defa-750a-40f7-9c76-f0f0c86247b3"/>
+    <refType typeId="1655dc4a-89e0-4eb9-8634-68e7ea3dac37" valueTypeId="4acb4341-012d-4735-ac8e-1876087724ae"/>
+    <selectionType typeId="d6615b12-b249-47e2-bd9c-22c1a44b90a9" valueTypeId="44bfe195-7981-4f84-985a-65c472791db2"/>
+    <listType typeId="096eadcd-815b-4d58-b88d-8883573ba5e9" valueTypeId="f8683cd9-3cfd-4ed3-996b-86e741b72a7c"/>
+    <managerType typeId="54eb2563-fcc1-44b2-bceb-725a72131358" valueTypeId="d6c61732-72cf-498e-a3eb-e3b457d83767"/>
+    <routePointRef typeId="2cab5a24-a66f-49ce-ab60-dfa84ce86648" valueTypeId="e5ea6ccf-ddf7-4ae7-8d0f-3c4efaff5b38"/>
+  </producedTypes>
+  <name>ПриемкаЖивотных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приемка животных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ПриемкаЖивотных.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.ПриемкаЖивотных.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачиФермы</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="ce42b54d-6f18-4c6e-aecd-31c088433434">
+    <name>ДокументПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ поступления</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПоступлениеЖивотных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7a53c5cf-448f-4f0f-afce-98568633341e">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

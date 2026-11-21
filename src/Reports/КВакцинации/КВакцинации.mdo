@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0f7fecc-0cbf-4a31-98c9-37b39513bea8">
+  <producedTypes>
+    <objectType typeId="b72f56e6-384b-40f9-9adc-6f4d1a40ec7d" valueTypeId="2c5e3b9c-38fc-480f-8675-d164ccba62cf"/>
+    <managerType typeId="168f1460-acf1-4610-9b22-f98b228d3bfa" valueTypeId="f48bfdc4-8ce7-416a-88b0-c10d5a9c5828"/>
+  </producedTypes>
+  <name>КВакцинации</name>
+  <synonym>
+    <key>ru</key>
+    <value>К вакцинации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.КВакцинации.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.КВакцинации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="fbcdea74-6e44-4ea4-8a5c-327bdd77f5b8">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="91103bc3-063e-4cfb-80d4-ca7b959f924e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

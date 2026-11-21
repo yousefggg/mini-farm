@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15fa1767-b397-4330-ba01-e8eaf4279aec">
+  <producedTypes>
+    <refType typeId="8b83290e-2e1c-4a82-aef0-63be1b96d1da" valueTypeId="9c914249-b5a1-40d4-89c6-9e79178e750b"/>
+    <listType typeId="2fb52c6e-30c9-408e-8f27-060e6bf1b7e5" valueTypeId="662ba068-040c-47d2-8862-fe00ce0aeb52"/>
+    <managerType typeId="2e88b7d0-09e2-43f6-a0d8-f7de78739294" valueTypeId="1b196819-76d0-4863-bfdd-2883791dec92"/>
+  </producedTypes>
+  <name>ЕдиницыИзмеренияДозировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения дозировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5b359479-12d0-4c80-85d3-4fc61cb8877e">
+    <name>МЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c023f95-129d-4a2c-9a5a-236e7583b81d">
+    <name>Л</name>
+    <synonym>
+      <key>ru</key>
+      <value>Л</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37be992e-8f1a-401e-9e3e-2b0a89baa357">
+    <name>Ампула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ампула</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

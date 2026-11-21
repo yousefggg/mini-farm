@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50a5eb76-afbf-4b29-8353-71ea840f5496">
+  <producedTypes>
+    <objectType typeId="711611d4-2c42-4909-8520-c4c9b68750b3" valueTypeId="411d41d8-945f-4e0d-ba8c-80dded578f4a"/>
+    <refType typeId="d8c54da0-b9c2-496b-b998-5c0bf78801d5" valueTypeId="0daa351c-31e5-42a6-a146-6a031945603b"/>
+    <selectionType typeId="efc9d768-5708-4240-984e-ece087bb3f43" valueTypeId="c213f407-71fe-478f-bf03-d6287881a01c"/>
+    <listType typeId="ff7cc075-5079-4d14-b155-f75739009cad" valueTypeId="b1f55bb6-d389-44ef-ad68-2e5ae2f11ea9"/>
+    <managerType typeId="bf280cd6-8f69-467e-a315-b9d9662d18b3" valueTypeId="869e31b5-74de-4853-97ea-e3c66868bf36"/>
+  </producedTypes>
+  <name>Вакцинация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакцинация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Вакцинация.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Вакцинация.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="537028a2-9d1f-47af-bc09-e56764577628">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f56beca2-85f5-45db-ae47-14be90d557ae">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a420a207-94fd-4e02-89a7-cbe2cbf20ac3">
+    <producedTypes>
+      <objectType typeId="2b8bea99-f59f-4a54-97ba-d973424523f3" valueTypeId="96f96481-000e-4c5b-80ac-620521940b4d"/>
+      <rowType typeId="9e9b6c69-113b-4a7a-9cd4-12b79c86ccba" valueTypeId="42fcfe08-85fc-466a-9b36-260d2333b2e3"/>
+    </producedTypes>
+    <name>Животные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Животные</value>
+    </synonym>
+    <attributes uuid="37095ffe-ee0c-4f6a-ab5a-68bf69cd0cde">
+      <name>Животное</name>
+      <synonym>
+        <key>ru</key>
+        <value>Животное</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Животные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a80d347f-1da2-4437-b347-a615127b4491">
+      <name>НазваниеВакцины</name>
+      <synonym>
+        <key>ru</key>
+        <value>Название вакцины</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d7c1e306-ed8d-4e71-baa5-ad876cedfc17">
+      <name>Дозировка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дозировка</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c6ad571d-5916-4bf4-9edb-74a2e1f365d4">
+      <name>Примечание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Примечание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="194a8150-3c78-4e9f-8b99-380fd3be3b2c">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ЕдиницыИзмеренияДозировки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="96186bd1-1300-42b9-b4a2-f78b02b47e28">
+      <name>ДатаСледующейВакцинации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата следующей вакцинации</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="10b2a22c-c38e-4a80-9023-8d4e6912a364">
+      <name>ИнтервалПовторенияВДнях</name>
+      <synonym>
+        <key>ru</key>
+        <value>Интервал повторения в днях</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e0b76cea-8ff6-4c02-a768-b6b0b9e499fc">
+      <name>Вакцина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вакцина</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Вакцины</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

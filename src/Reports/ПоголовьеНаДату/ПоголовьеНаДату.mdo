@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71c129d6-8201-4c09-a099-0ab66891f6a2">
+  <producedTypes>
+    <objectType typeId="aa1d1cc7-fa70-4eae-852f-5ad9b5824bd6" valueTypeId="1b8583ce-0849-4b19-8e51-895c287f8d73"/>
+    <managerType typeId="6362b2db-fd57-4cc9-9f92-fa4d4e0dddec" valueTypeId="b98ee70f-3dfa-4056-89f5-86bb0a893a27"/>
+  </producedTypes>
+  <name>ПоголовьеНаДату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поголовье на дату</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ПоголовьеНаДату.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПоголовьеНаДату.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="13ff250e-b17d-4f53-a1c2-ff3018b967d1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="35e16057-cdca-4f87-9325-b86a78754eb2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

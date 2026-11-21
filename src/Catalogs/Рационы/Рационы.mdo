@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa0af6d3-3df7-4c48-915f-95c1a3921924">
+  <producedTypes>
+    <objectType typeId="8f7b5c37-eaea-4fbc-939b-a04ac043283f" valueTypeId="9198bd81-f553-4198-8600-2e4259c9e43f"/>
+    <refType typeId="776dc9c3-85d9-4b96-8c19-620e3fdc9190" valueTypeId="8453a00f-2df0-408e-8fae-74bedea2899a"/>
+    <selectionType typeId="aad4a0c4-9881-4d2f-b772-a34437acee31" valueTypeId="4fbcfa43-4796-4270-8ed5-e8433594ca1a"/>
+    <listType typeId="fe1a0536-c23b-4cc8-9f9b-5f7bf555c341" valueTypeId="b9e33800-d49b-4b69-8262-3d86f3347146"/>
+    <managerType typeId="d56dbd46-6162-4fc3-8b74-58f8396610cd" valueTypeId="c4a6a090-a650-443a-95ae-98056acd30d3"/>
+  </producedTypes>
+  <name>Рационы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рационы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Рационы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Рационы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="081877d8-689c-426d-b95b-63c70d171692">
+    <name>ВидЖивотного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид животного</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЖивотных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="67f3af7b-9a86-41a2-8cb8-83f36a936c34">
+    <producedTypes>
+      <objectType typeId="97782ead-44c1-482c-a335-ea082793dae9" valueTypeId="fcbd01ed-2f97-4db7-94a3-3be8a54c8b7c"/>
+      <rowType typeId="f9319989-2e97-417e-849f-e6670705a0fb" valueTypeId="f70273bf-6214-4313-ab99-401c0c933338"/>
+    </producedTypes>
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <attributes uuid="fb442d5c-c5fb-4ac9-afe6-c159a471cc2d">
+      <name>Корм</name>
+      <synonym>
+        <key>ru</key>
+        <value>Корм</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Корма</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="91335dae-4bcf-4ab2-8ed9-e6382cef5f13">
+      <name>КоличествоВСутки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество в сутки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

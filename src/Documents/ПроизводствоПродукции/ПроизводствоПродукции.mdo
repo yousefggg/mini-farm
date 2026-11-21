@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="350c812c-07ec-4f7e-be71-b3612b5b52f1">
+  <producedTypes>
+    <objectType typeId="c969ec70-1e28-4874-a54e-535687c930dc" valueTypeId="d611a722-c6f2-4d95-bf47-39941dcfdc6c"/>
+    <refType typeId="bb239e6e-ac3e-4af4-9d19-41429674bec6" valueTypeId="41c48ce8-a5a1-4038-8e9e-5dc811e9f12b"/>
+    <selectionType typeId="a9960240-5251-4a67-8c69-158abcd97330" valueTypeId="c0001611-344e-4a69-b44e-2c131c2c4760"/>
+    <listType typeId="81e4fb0e-befb-43ac-acf6-74eba721ae30" valueTypeId="948cf22e-8db7-467e-942c-81ecea5d2157"/>
+    <managerType typeId="4d8e88c7-b584-4bcf-9f13-0fcda120ba51" valueTypeId="2362d36d-f622-4a86-aa58-5a4f156ff014"/>
+  </producedTypes>
+  <name>ПроизводствоПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ПроизводствоПродукции.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ВыработкаПродукции</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>

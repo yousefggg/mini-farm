@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d7d2767-aaff-45db-ae55-e7753a1a7b05">
+  <producedTypes>
+    <selectionType typeId="ff97446f-2a54-418e-b830-447c577e0a30" valueTypeId="3ef81db1-cb9e-46dc-96d4-a4585724a47d"/>
+    <listType typeId="7ead7fe1-e5cb-442e-bd40-9178100208f7" valueTypeId="4611c1eb-b4b4-4a52-943b-5ba2ab9377cc"/>
+    <managerType typeId="42c60206-6302-4349-994f-5c45c2101a5b" valueTypeId="0920d77f-5985-4605-9612-1f900d045d62"/>
+    <recordSetType typeId="34ac99c8-d81e-4565-a16a-3c9b3f6611f8" valueTypeId="10e876fa-6c75-4c6d-bb7e-86ae6a559b2d"/>
+    <recordKeyType typeId="58e08724-8e24-4c80-898f-28d386cce4b9" valueTypeId="cc64f6b4-b65b-429c-8b73-09667fc8da39"/>
+    <recordType typeId="de5d3455-e3d3-433f-aff7-0a61de90f8f2" valueTypeId="f5f8a400-f84d-452c-835f-a3547389c369"/>
+  </producedTypes>
+  <name>РасходКормов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход кормов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="63975413-6686-42ce-9760-f6fbdead22ff">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="0c5098b5-bb7d-4eb5-9b3b-e4993d50cbda">
+    <name>Корм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Корма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="9b8edf8c-30ce-411d-97b1-4fe5cc739af1">
+    <name>Животные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Животные</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Животные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

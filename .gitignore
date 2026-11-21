@@ -1,0 +1,7 @@
+.settings/
+.metadata/
+.project
+*.bin
+*.cache
+/build/
+/bin/

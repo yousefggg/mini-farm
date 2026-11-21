@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9c1e0d5-6df5-499a-97e2-970e0f8358c1">
+  <producedTypes>
+    <objectType typeId="791cbb3e-1c90-41b8-a1e4-76d8e679ff12" valueTypeId="8c08a061-7758-4000-93fd-a0335ea0d949"/>
+    <refType typeId="278fdd27-2203-4d35-9993-c3c75bbacc3e" valueTypeId="619918e7-ea92-47c9-a4da-4a7484dcb720"/>
+    <selectionType typeId="57774e39-2006-423b-a39c-cfd4a0aebd97" valueTypeId="cdbad5c0-7d6c-49ed-86c8-63f0d6c90abc"/>
+    <listType typeId="a23a36b0-a3f3-427e-8229-efda79f17bc5" valueTypeId="2bbc1556-cc8e-4aeb-af53-5be4dc0dd702"/>
+    <managerType typeId="da289733-c736-44e1-b9ef-36dac012d97d" valueTypeId="39a263bb-b80a-4fd0-9309-acf24f7d18e1"/>
+  </producedTypes>
+  <name>Вакцины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вакцины</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Вакцины.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Вакцины.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

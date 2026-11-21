@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84753feb-a84d-474a-8c3b-61df190154c2">
+  <name>Кормление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кормление</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Корма</content>
+  <content>Catalog.Рационы</content>
+  <content>Document.ВыдачаКорма</content>
+  <content>InformationRegister.НормыКормления</content>
+  <content>AccumulationRegister.РасходКормов</content>
+</mdclass:Subsystem>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa0b93ee-db5b-4a2c-975f-db8a7747f4ec">
+  <producedTypes>
+    <objectType typeId="69ae3261-d6d5-4904-a245-7441b30d6a48" valueTypeId="bdebf80a-d198-479c-ad36-9d27b679fb61"/>
+    <refType typeId="5ae0c72c-8b56-45b3-b6e1-1b5e772f491d" valueTypeId="46018b0e-4509-4641-add2-e8927105fb60"/>
+    <selectionType typeId="cf118907-c032-46ba-83f9-3269779494d4" valueTypeId="88379d81-ea49-4e72-ba1f-9b22b580b041"/>
+    <listType typeId="d8e3f24c-eb8d-49ea-868c-f771e689401c" valueTypeId="3d14f8f5-4b81-4db1-a2b8-72d4c53631a3"/>
+    <managerType typeId="34bfcc29-c363-48b0-9675-97b44d4ceb98" valueTypeId="b71c6552-7112-4897-b991-5fc0c69149e1"/>
+  </producedTypes>
+  <name>ВидыЖивотных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды животных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЖивотных.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыЖивотных.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

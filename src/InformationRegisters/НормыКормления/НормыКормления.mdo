@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5a85844-2126-4f35-aefa-f91325143306">
+  <producedTypes>
+    <selectionType typeId="661c484b-eff5-45a1-8c1a-1e4068b59f64" valueTypeId="7aae0603-dec6-474a-ab0d-e1d1477c8aa1"/>
+    <listType typeId="ff09bf51-29f1-4701-b273-ebf2c091a46c" valueTypeId="b53998ee-d0fb-4bf5-be06-8f48fe44882a"/>
+    <managerType typeId="7e324aa4-a577-4965-9328-6ac05a3e187d" valueTypeId="532b0d0a-881b-430f-8dd9-fd1143ffb61a"/>
+    <recordSetType typeId="c1cad5e6-382e-40a9-8080-8a2a417beec7" valueTypeId="985fdd56-8814-4100-a126-11e268f54694"/>
+    <recordKeyType typeId="344913cc-d7c5-47df-ad84-bf4fbe8a742a" valueTypeId="fe0414b6-c03a-49d4-aed7-40481b71b66e"/>
+    <recordType typeId="7989327e-1f63-4411-af79-e2608aec06d0" valueTypeId="311bc252-e169-43e8-9882-970c69a0292b"/>
+    <recordManagerType typeId="ae0b5a96-0167-4b23-a059-dceb454bc85c" valueTypeId="0d48db81-041a-41b4-b421-d0c9a3003863"/>
+  </producedTypes>
+  <name>НормыКормления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы кормления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c63c76d0-30e9-45d0-a3b8-495fd6341ff2">
+    <name>КоличествоВСутки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество в сутки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="45e572ae-a300-4fa6-ad1e-5bc535901601">
+    <name>ВидЖивотного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид животного</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыЖивотных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b986f074-d252-44de-82e7-c89bc6df3fcc">
+    <name>Корм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Корма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

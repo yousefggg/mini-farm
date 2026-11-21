@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fec6772-7c13-4f6f-acb1-1e600240150c">
+  <name>УчетЖивотных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет животных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВидыЖивотных</content>
+  <content>Catalog.Животные</content>
+  <content>Catalog.Вакцины</content>
+  <content>Document.ПоступлениеЖивотных</content>
+  <content>Document.Вакцинация</content>
+  <content>Document.ВыбытиеЖивотных</content>
+  <content>AccumulationRegister.Поголовье</content>
+  <content>DataProcessor.ЗагрузкаИзJSON</content>
+  <content>Task.ЗадачиФермы</content>
+  <content>BusinessProcess.ПриемкаЖивотных</content>
+</mdclass:Subsystem>
